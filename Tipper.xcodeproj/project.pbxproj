@@ -193,8 +193,7 @@
 				TargetAttributes = {
 					6EE438BC1E184B710018388E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4TYCMS4J2W;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					6EE438D01E184B720018388E = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -415,7 +414,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4TYCMS4J2W;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codepath.Tipper;
@@ -428,7 +428,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4TYCMS4J2W;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tipper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codepath.Tipper;
